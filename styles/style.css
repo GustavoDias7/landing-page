@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* container */
+
+.container {
+    padding: 2rem 5%;
+}
+
+/* PRIMEIRA SECTION */
+
+#section-01 {
+    padding-top: 13px;
+    height: 94vh;
+    background: url('../image/background03.png') no-repeat center center/cover;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 13px;
+}
+
+.showcase {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    max-width: 450px;
+    height: min-content;
+    text-align: center;
+    color: white;
+}
+
+
+#title {
+    font-size: 60px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+#subtitle {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.link-product {
+    display: block;
+    width: min-content;
+    height: min-content;
+    margin: auto;
+}
+
+.main-button {
+    margin: 20px auto;
+    
+    width: 250px;
+    height: 50px;
+
+    border: 0;
+    border-radius: 25px;
+
+    background-color: #00a2ff;
+    outline: unset;
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.main-button:hover {
+    background-color: #0086d3;
+}
+
+/* SECTION - O QUE VOCÊ VAI APRENDER */
+
+#section-02, #section-04 {
+    background-color: #a7eef3;
+}
+
+.content h2 {
+    text-align: center;
+    color: #0086d3;
+    font-size: 35px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px auto 0;
+    max-width: 965px;
+}
+
+.topics div {
+    text-align: center;
+    width: 210px;
+    margin: 10px;
+    padding: 20px 6px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.icon-size {
+    color: #00a2ff;
+    font-size: 48px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topic-title {
+    color: #00a2ff;
+    font-size: 30px;
+}
+
+.topics p {
+    font-size: 25px;
+}
+
+/* SECTION - QUAL É O MATERIAL */
+
+.material {
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    margin: 25px auto 0;
+}
+
+.material img {
+    max-width: 165px;
+}
+
+.material p {
+    display: block;
+    max-width: 285px;
+    font-size: 22px;
+    margin-left: 10px;
+    text-align: start;
+}
+
+
+/* SECTION - QUANTO CUSTA AS AULAS */
+
+#section-04 div {
+    max-width: 400px;
+    height: min-content;
+    padding: 10px;
+    margin: 15px auto;
+
+    border-radius: 3px;
+    background-color: white;
+}
+
+#section-04 p{
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+
+footer h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.social-network {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 48px;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+@media (max-width: 499px) {
+    .logo {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 349px) {
+    .material {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    .material img {
+        margin-bottom: 15px;
+    }
+}
